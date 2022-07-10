@@ -188,7 +188,7 @@ li {
     margin: 10px;
     height: 400px;
     width: 50%;
-    background-image: url(../img/bg-card.svg);
+    background-image: url(/img/bg-card.svg);
     background-size: cover;
     padding: 20px 40px;
     font-size: 32px;
@@ -204,7 +204,7 @@ li {
 
 /* .......................footer........................... */
 .foot {
-    background-image: url(../img/bg-cloud.svg),linear-gradient(180deg, #280347, #4c216f);
+    background-image: url(/img/bg-cloud.svg),linear-gradient(180deg, #280347, #4c216f);
     background-size: auto;
     padding: 0 90px;
 
@@ -220,7 +220,7 @@ li {
     display: flex;
     padding-bottom: 20px;
 
-    background-image: url(../img/bg-orange.svg);
+    background-image: url(/img/bg-orange.svg);
     background-repeat: no-repeat;
     background-position: right;
 }
