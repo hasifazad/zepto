@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    background: #280347;
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/*..................header...........................*/
+.head-1 {
+    margin-top: 30px;
+    display: flex;
+    padding: 20px 70px;
+}
+
+.head-11 {
+    width: 35%;
+    margin-left: 20px;
+}
+
+.head-menu {
+    width: 100%;
+}
+
+.head-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home,
+.delivery,
+.careers,
+.press,
+.customer {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bolder;
+    font-size: 21px;
+    color: azure;
+}
+
+.home {
+    color: #dec2eb;
+}
+
+.nav-item:hover {
+    color: #dec2eb;
+}
+
+
+/*...................section-1........................*/
+/* linear-gradient(180deg, #280347, #3c006b), */
+.sec-1 {
+    height: 600px;
+    display: flex;
+    padding: 125px 100px;
+    background-image: url(/img/bg-cloud.svg),linear-gradient(180deg, rgba(40, 3, 71), rgba(60, 0, 107));
+    background-size: contain;
+}
+
+.tagline {
+    padding-bottom: 10px;
+    font-size: 100px;
+}
+
+.badge {
+    margin: 30px 0;
+}
+
+/*....................section-2..........................*/
+.delivering {
+    margin: 60px 0;
+    text-align: center;
+    color: #dec2eb;
+}
+.sec-21 {
+    display: flex;
+    animation: move 26s linear infinite;
+}
+.location {
+    display: flex;
+    margin: 0 50px;
+}
+
+.sec-2-loc{
+    font-size: 40px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(5%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+
+}
+
+.locations::-webkit-scrollbar {
+    display: none;
+}
+
+.loc-1,
+.loc-2,
+.loc-3,
+.loc-4,
+.loc-5,
+.loc-6 {
+    padding-left: 100px;
+    font-size: 50px;
+    display: flex;
+}
+
+.ques {
+    margin: 60px 0;
+    text-align: center;
+    color: #dec2eb;
+}
+
+/*.......................section-3.........................*/
+
+.sec-3 {
+    background: #3c006b;
+    padding: 70px 90px;
+}
+
+.sec-3-innerbox {
+    padding: 50px;
+    border: 3px solid #ff3a67;
+    border-radius: 24px;
+}
+
+.card {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.card-h {
+    font-size: 36px;
+}
+
+.card-p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* .......................section-4......................... */
+
+.sec-4{
+    padding: 0 90px;
+    padding-bottom: 100px;
+}
+.sec-41 {
+    display: flex;
+}
+
+.happy {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.review-card {
+    margin: 10px;
+    height: 400px;
+    width: 50%;
+    background-image: url(../img/bg-card.svg);
+    background-size: cover;
+    padding: 20px 40px;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.review{
+    box-shadow: 1px 1px 3px 0 #000;
+    padding-bottom: 50px;
+}
+
+
+/* .......................footer........................... */
+.foot {
+    background-image: url(../img/bg-cloud.svg),linear-gradient(180deg, #280347, #4c216f);
+    background-size: auto;
+    padding: 0 90px;
+
+}
+
+.f-logo {
+    padding-top: 50px;
+}
+
+.foot-1 {
+    width: 100%;
+
+    display: flex;
+    padding-bottom: 20px;
+
+    background-image: url(../img/bg-orange.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.foot-11 {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.foot-12 {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.foot-2 {
+    display: flex;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.foot-link {
+    padding: 0px 20px;
+    color: #dec2eb;
+    text-decoration: underline;
+    font-size: 20px;
+}
