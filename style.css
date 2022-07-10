@@ -73,7 +73,7 @@ li {
     height: 600px;
     display: flex;
     padding: 125px 100px;
-    background-image: url(./img/bg-cloud.svg),linear-gradient(180deg, rgba(40, 3, 71), rgba(60, 0, 107));
+    background-image: url(https://github.com/hasifazad/zepto/blob/master/img/bg-cloud.svg),linear-gradient(180deg, rgba(40, 3, 71), rgba(60, 0, 107));
     background-size: contain;
 }
 
